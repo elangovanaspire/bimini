@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+div.wrap {
+	position: relative;
+}
+
+div#img_preview {
+	box-shadow: 0 0 4px #333;
+	background-color: #666;
+	left: -50000px;
+	line-height: 0;
+	padding: 5px;
+	position: absolute;
+	z-index: 1000;
+}
+
+div#img_preview img {
+	background-color: #999;
+	max-height: 119px;
+	max-width: 502px;
+	border: 1px dotted #ccc;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+td,th {
+	vertical-align: baseline;
+}
+
+th {
+	text-align: right;
+	white-space: nowrap;
+}
+
+table.query th {
+	vertical-align: middle;
+}
+
+th label,table.query td label {
+	font-weight: bold;
+	margin-top: 3px;
+	white-space: nowrap;
+}
+
+table.query td:first-child {
+	white-space: nowrap;
+}
+
+th p,td p {
+	font-weight: normal;
+	margin: 0 0 0.5em 0;
+	white-space: normal;
+}
+
+td.name {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+td.name i {
+	font-weight: normal;
+}
+
+td p.doesnotexist,td p.permission {
+	color: #990000;
+}
+
+table.query,table.deleted {
+	border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+	margin: 15px 0;
+	padding: 15px 0;
+	width: 100%;
+}
+
+table.deleted {
+	border-top: 0 solid #ccc;
+	padding-top: 0;
+}
+
+table.deleted th.status {
+	color: #990000;
+	white-space: nowrap;
+}
+
+table.deleted th.status.deleted {
+	color: #009900;
+}
+
+table.query input,table.query select {
+	width: 300px;
+}
+
+table.query input.hex,table.query input[type=number]
+	{
+	width: 65px;
+}
+
+span.used {
+	color: #009900;
+	font-weight: bold;
+	width:
+}
+
+span.unused,span.permission {
+	color: #990000;
+	font-weight: bold;
+}
+
+span.used,span.unused {
+	display: inline-block;
+	text-align: right;
+	width: 30px;
+}
+
+div.report {
+	margin-bottom: 15px;
+}
+
+div.image_list {
+	float: left;
+	margin: 0 auto 0 0;
+}
+
+ul.images {
+	margin-top: 15px;
+}
+
+ul.child {
+	margin-top: 3px;
+	margin: 3px 0 20px 20px;
+}
+
+label.disabled {
+	color: #999;
+}

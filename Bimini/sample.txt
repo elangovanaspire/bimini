@@ -1,0 +1,40 @@
+
+Accept: application/json
+Content-Type: application/json
+
+
+{    "ndc_id":"12345678",    
+"start_date":"11/10/2014",    
+"end_date":"11/30/2014",    
+"until_cancel":false,    
+"time": [        "10:00",        "16:00"    ],    
+"special_instruction":"have with warm water"} 
+
+
+http://localhost/cracs_casino?json=get_nonce&controller=posts&method=create_post
+
+f0dfabf4f2
+
+f0dfabf4f2
+
+
+http://localhost/cracs_casino?json=get_nonce&controller=posts&method=make_up_room
+
+fedde7c520
+
+fedde7c520
+
+
+fedde7c520
+
+
+http://localhost/cracs_casino?json=get_nonce&controller=new_posts&method=make_up_room
+
+aa564d125f
+
+aa564d125f
+
+
+http://localhost/cracs_casino?json=get_nonce&controller=new_posts&method=create_post
+
+18b3b3c77b
